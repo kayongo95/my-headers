@@ -214,3 +214,11 @@ button:hover{
     align-items: center;
     gap: 10px;
 }
+
+.container6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: yellow;
+}
