@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2;
+    width: auto;
+    height: auto;
+}
+
+header{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+
+nav ul li a{
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #fff;
+    background-color: #000;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.search-bar{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar input{
+    width: 100px;
+    outline: none;
+    border: none;
+}
+
+.search-bar button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button:hover{
+    background-color: #222;
+}
+
+.social-media{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.bxl-facebook{
+    background-color: #3b5998;
+    color: #fff;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+.bxl-instagram{
+    background-color: #c13584;
+    color: #fff;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+.bxl-twitter{
+    background-color: #1da1f2;
+    color: #fff;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+select{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: steelblue;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo h1{
+    color: #fff;
+    font-size: 25px;
+    border: 5px solid;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.logo h1:hover{
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.container4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover{
+    background-color: #222;
+    color: #fff;
+}
+
+.container5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: violet;
+}
+
+.left{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.right input{
+    padding: 5px;
+}
+
+.image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image .bx{
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
